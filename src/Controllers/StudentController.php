@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Core\View;
+use App\Database;
 use App\Models\Student;
 use phpDocumentor\Reflection\Location;
 
@@ -11,6 +12,8 @@ class StudentController
 
     public function __construct()
     {
+
+
         if (isset($_GET["action"]) && ($_GET["action"] == "create")) {
             $this->create();
             return;
@@ -53,11 +56,13 @@ class StudentController
 
     public function create(): void
     {
-        new View("CreateStudent");
+        echo 'Aqui tendremos el Formulario para crear';
+        // new View("CreateStudent");
     }
 
     public function store(array $request): void
     {
+
         $newStudent = new Student($request["name"]);
         $newStudent->save();
 
