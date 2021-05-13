@@ -5,16 +5,18 @@ namespace App\Models;
 
 
 use App\Database;
+use DateTime;
 
-class Student
+class Coders
 {
     private ?int $id;
-    private string $name;
-    private ?string $created_at;
+    private string $coder;
+    private datetime $date_time;
+    private string $issue;
     private $database;
-    private $table = "students";
+    private $table = "appointments";
 
-    public function __construct(string $name = '', int $id = null, string $created_at = null)
+    public function __construct(datetime $date_time = '', string $coder = '', string $issue = '', int $id = null)
     {
         $this->name = $name;
         $this->id = $id;
@@ -52,12 +54,12 @@ class Student
 
     public function all()
     {
-        $query = $this->database->mysql->query("select * FROM {$this->table}");
+        $query = $this->database->mysql->query("select * FROM appointments");
         $studentsArray = $query->fetchAll();
         $studentList = [];
         foreach ($studentsArray as $student) {
-            $studentItem = new Student($student["name"], $student["id"], $student["created_at"]);
-            array_push($studentList, $studentItem);
+            $coderItem = new Coders ($coder["date_time"], $coder["coder"], $coder["issue"], $coder["id"]);
+            array_push($studentList, $coderItem);
         }
 
         return $studentList;

@@ -4,10 +4,10 @@ namespace App\Controllers;
 
 use App\Core\View;
 use App\Database;
-use App\Models\Student;
+use App\Models\Coders;
 use phpDocumentor\Reflection\Location;
 
-class StudentController
+class CodersController
 {
 
     public function __construct()
@@ -46,11 +46,11 @@ class StudentController
     public function index(): void
     {
 
-        $student = new Student();
-        $students = $student->all();
+        $coder = new Coders();
+        $coders = $coder->all();
 
-        new View("StudentsList", [
-            "students" => $students,
+        new View("CoderList", [
+            "coders" => $coders,
         ]);
     }
 

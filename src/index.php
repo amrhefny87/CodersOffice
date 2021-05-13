@@ -2,7 +2,7 @@
 
 namespace App;
 
-use App\Controllers\StudentController;
+use App\Controllers\CodersController;
 
 
-$controller = new StudentController();
+$controller = new CodersController();
