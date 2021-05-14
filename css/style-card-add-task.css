@@ -1,0 +1,38 @@
+.card-add-task{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-right: 0 !important;
+
+}
+
+.button-cancel{
+    margin-bottom: 30px;
+    margin-left: -13px;
+}
+
+.buttons-add-task{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.go-add-task{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.input-add-task{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.titulo-pagina{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #2E59D9 !important;
+}
