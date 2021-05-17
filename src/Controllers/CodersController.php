@@ -61,7 +61,8 @@ class CodersController
     public function store(array $request): void
     {
         
-        $newCoder = new Coders($request["coder"]);
+        $newCoder = new Coders(Null,$request["coder"],$request["issue"]);
+
         $newCoder->save();
 
         $this->index();
@@ -79,19 +80,19 @@ class CodersController
     public function edit($id)
     {
         //Find Student By Id
-        $studentHelper = new Coders();
-        $student = $studentHelper->findById($id);
+        $coderHelper = new Coders();
+        $coder = $coderHelper->findById($id);
         //Execute view with student atributes
-        new View("EditStudent", ["student" => $student]);
+        new View("EditCoder", ["coder" => $coder]);
     }
 
     public function update(array $request, $id)
     {
         // Update Student By ID
-        $studentHelper = new Coders();
-        $student = $studentHelper->findById($id);
-        $student->rename($request["name"]);
-        $student->update();
+        $coderHelper = new Coders();
+        $coder = $coderHelper->findById($id);
+        $coder->rename($request["coder"],$request["issue"]);
+        $coder->update();
         // Return to Viwe List
         $this->index();
     }

@@ -24,7 +24,6 @@ class Coders
         $this->issue = $issue;
         $this->id = $id;
 
-
         if (!$this->database) {
             $this->database = new Database();
         }
@@ -50,14 +49,18 @@ class Coders
         return $this->coder;
     }
 
-    public function rename($name)
+    public function rename($coder,$issue)
     {
-        $this->name = $name;
+        $this->coder = $coder;
+        $this->issue = $issue;
+        
     }
 
     public function save(): void
     {
-        $this->database->mysql->query("INSERT INTO `{$this->table}` (`id`, `coder`, `issue`, `date_time`) VALUES ('NULL','$this->coder','$this->issue','NULL');");
+
+        /*$this->database->mysql->query("INSERT INTO `{$this->table}` (`id`, `coder`, `issue`, `date_time`) VALUES (NULL, `{$this->coder}`, `{$this->issue}`, '')");*/
+        $this->database->mysql->query("INSERT INTO `{$this->table}` (`coder`, `issue`) VALUES ('$this->coder','$this->issue');");
     }
 
     public function all()
@@ -83,15 +86,16 @@ class Coders
 
     public function delete()
     {
-        $query = $this->database->mysql->query("DELETE FROM `coders` WHERE `coders`.`id` = {$this->id}");
+        
+        $query = $this->database->mysql->query("DELETE FROM `{$this->table}` WHERE `{$this->table}`.`id` = {$this->id}");
     }
 
     public function findById($id)
     {
-        $query = $this->database->mysql->query("SELECT * FROM `students` WHERE `id` = {$id}");
+        $query = $this->database->mysql->query("SELECT * FROM `{$this->table}` WHERE `id` = {$id}");
         $result = $query->fetchAll();
 
-        return new Coders($result[0]["name"], $result[0]["id"], $result[0]["created_at"]);
+        return new Coders($result[0]["id"], $result[0]["coder"], $result[0]["issue"] , $result[0]["date_time"]);
     }
 
     public function UpdateById($data, $id)
@@ -101,6 +105,6 @@ class Coders
 
     public function Update()
     {
-        $this->database->mysql->query("UPDATE `students` SET `name` =  '{$this->name}' WHERE `id` = {$this->id}");
+        $this->database->mysql->query("UPDATE `{$this->table}` SET `coder` =  '{$this->coder}', `issue` =  '{$this->issue}' WHERE `id` = {$this->id}");
     }
 }
