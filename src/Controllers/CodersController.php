@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Core\View;
 use App\Database;
 use App\Models\Coders;
+use App\Models\Logger;
 use phpDocumentor\Reflection\Location;
 
 class CodersController
@@ -56,6 +57,7 @@ class CodersController
     {
         /*echo 'Aqui tendremos el Formulario para crear';*/
         new View("CreateCoder");
+        
     }
 
     public function store(array $request): void
@@ -65,6 +67,10 @@ class CodersController
 
         $newCoder->save();
 
+        $logger = new Logger();
+        $logger->logCreate($newCoder);
+
+
         $this->index();
     }
 
@@ -73,6 +79,9 @@ class CodersController
         $coderHelper = new Coders();
         $coder = $coderHelper->findById($id);
         $coder->delete();
+
+        $logger = new Logger();
+        $logger->logDelete($coder);
 
         $this->index();
     }
@@ -93,6 +102,10 @@ class CodersController
         $coder = $coderHelper->findById($id);
         $coder->rename($request["coder"],$request["issue"]);
         $coder->update();
+
+        $logger = new Logger();
+        $logger->logUpdate($coder);
+
         // Return to Viwe List
         $this->index();
     }
