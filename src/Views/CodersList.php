@@ -17,7 +17,7 @@
                     <th>Coder</th>
                     <th>Issue</th>
                     <th>#</th>
-                    <th>Action</th>
+                    <th>Action</th> 
                 </tr>
             </thead>
 
