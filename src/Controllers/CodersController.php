@@ -8,12 +8,17 @@ use App\Models\Coders;
 use App\Models\Logger;
 use phpDocumentor\Reflection\Location;
 
+
+
 class CodersController
 {
 
-    public function __construct()
+    private Logger $logger;
+
+    public function __construct(Logger $logger)
     {
 
+         $this->logger = $logger;
 
         if (isset($_GET["action"]) && ($_GET["action"] == "create")) {
             $this->create();
@@ -67,8 +72,7 @@ class CodersController
 
         $newCoder->save();
 
-      //  $logger = new Logger();
-        //$logger->logCreate($newCoder);
+        $this-> logger->logCreate($newCoder);
 
 
         $this->index();
@@ -80,8 +84,8 @@ class CodersController
         $coder = $coderHelper->findById($id);
         $coder->delete();
 
-        //$logger = new Logger();
-        //$logger->logDelete($coder);
+       
+        $this-> logger->logDelete($coder);
 
         $this->index();
     }
@@ -103,8 +107,8 @@ class CodersController
         $coder->rename($request["coder"],$request["issue"]);
         $coder->update();
 
-       // $logger = new Logger();
-       // $logger->logUpdate($coder);
+      
+       $this-> logger->logUpdate($coder);
 
         // Return to Viwe List
         $this->index();
