@@ -14,3 +14,6 @@
 17/05/2021 14:01:31 se ha eliminado ID: 44 con Nombre del Coder:  Chuiquitin el peque
 17/05/2021 14:01:32 se ha eliminado ID: 45 con Nombre del Coder:  Chuiquitin el peque
 17/05/2021 14:01:34 se ha eliminado ID: 46 con Nombre del Coder:  Chuiquitin el peque
+18/05/2021 15:44:23 se ha creado una solicitud con Nombre del Coder:  xy con Issue:  rtyurtyurtyuj hjf 
+18/05/2021 15:44:29 se ha actualizado ID: 50 con Nombre del Coder:  ffff y con Issue:  rtyurtyurtyuj hjf 
+18/05/2021 15:44:32 se ha eliminado ID: 50 con Nombre del Coder:  ffff
