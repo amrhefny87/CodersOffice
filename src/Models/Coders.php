@@ -86,7 +86,7 @@ class Coders
 
     public function delete()
     {
-        
+
         $query = $this->database->mysql->query("DELETE FROM `{$this->table}` WHERE `{$this->table}`.`id` = {$this->id}");
     }
 
