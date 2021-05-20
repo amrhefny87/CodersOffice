@@ -195,10 +195,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Autores ✒️
 <ul>
-  <li>Andrea</li>
-  <li>Jael</li>
-  <li>Andres - Scrum Master</li>
   <li>Amr</li>
+  <li>Andrea</li>
+  <li>Andres - Scrum Master</li>
+  <li>Jael</li>
   <li>Jose Miguel - Product Owner</li>
 </ul>
 
