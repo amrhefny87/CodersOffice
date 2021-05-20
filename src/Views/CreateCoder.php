@@ -1,9 +1,10 @@
 <?php require_once("Components/Layout.php"); ?>
 
-<body>
-    <?php require_once("Components/Header.php"); ?>
 
-    <main class="container text-center">
+<?php require_once("Components/Header.php"); ?>
+
+    <body >
+    <main class="container text-center create">
 
         <h2 class="text-center">Nueva Consulta</h2>
 
@@ -17,5 +18,4 @@
             <input type="reset" value="Reset">
         </form>
     </main>
-
 </body>
