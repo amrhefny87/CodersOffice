@@ -137,6 +137,78 @@ Extras:
 ***
 
 
+# El Consultorio del Coder
+
+
+## Comenzando 🚀
+
+Dónde encontrar el git Page: 
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxx  https://andresestebanpatino.github.io/wheelOfDoom/
+
+
+## Mockup de este proyecto 🛠️
+
+Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidades:
+
+<p align="center"> 
+  <img src="./img/README.md/mockupReadMe.JPG?raw=true" width=50%>
+</p>
+
+
+## Capturas Pantallas formato Móvil ⚙️
+
+<p align="center"> 
+  <img src="./img/README.md/landingPageReadMe.JPG?raw=true" width=25%>
+  <img src="./img/README.md/Main1ReadMe.JPG?raw=true" width=25%>
+  <img src="./img/README.md/Main2ReadMe.JPG?raw=true" width=25%>
+  <img src="./img/README.md/endingPage1ReadMe.JPG?raw=true" width=25%>
+  <img src="./img/README.md/endingPage2ReadMe.JPG?raw=true" width=25%>
+</p>
+
+
+## Capturas Pantallas formato Desktop ⚙️
+
+<p align="center"> 
+  <img src="./img/README.md/landingPageReadMeIpad.JPG?raw=true" width=40%>
+  <img src="./img/README.md/Main1ReadMeIpad.JPG?raw=true" width=40%>
+  <img src="./img/README.md/Main2ReadMeIpad.JPG?raw=true" width=40%>
+  <img src="./img/README.md/endingPage1ReadMeIpad.JPG?raw=true" width=40%>
+  <img src="./img/README.md/endingPage2ReadMeIpad.JPG?raw=true" width=40%>
+</p>
+
+
+## Herramientas usadas en este proyecto 🛠️
+
+* Visual Studio Code
+* Trello
+* Figma
+* Slack
+* Metodologías Ágiles
+* Balsamiq
+* Planning Poker
+* GoogleDocs
+* GoogleFonts
+* Zoom
+* MVC
+* PDO
+
+
+
+## Licencias Utilizadas 🛠️
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+## Autores ✒️
+
+* **Andrea**
+* **Jael** 
+* **Andres - Scrum Master**
+* **Amr**
+* **Jose Miguel - Product Owner**
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx También pueden mirar la lista de todos los [contribuyentes](https://github.com/AndresEstebanPatino/wheelOfDoom/contributors) quienes han participado en este proyecto.  
 
 
 
