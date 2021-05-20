@@ -80,10 +80,10 @@ class Coders
         return $coderList;
     }
 
-    public function deleteById($id)
+   /* public function deleteById($id)
     {
         $query = $this->database->mysql->query("DELETE FROM `students` WHERE `students`.`id` = {$id}");
-    }
+    }*/
 
     public function delete()
     {
@@ -99,10 +99,10 @@ class Coders
         return new Coders($result[0]["id"], $result[0]["coder"], $result[0]["issue"] , $result[0]["date_time"]);
     }
 
-    public function UpdateById($data, $id)
+    /*public function UpdateById($data, $id)
     {
         $this->database->mysql->query("UPDATE `students` SET `name` =  '{$data["name"]}' WHERE `id` = {$id}");
-    }
+    }*/
 
     public function Update()
     {
