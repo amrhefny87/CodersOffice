@@ -1,4 +1,4 @@
-.body-index {
+body {
     background-image: url("../img/background-index.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,9 +16,6 @@
     right: 20px;
 }
 
-<<<<<<< HEAD
-=======
 .img {
     width: 300px;
 }
->>>>>>> d0c376d20e1ef2c9770ac531520d4a915962b9be
