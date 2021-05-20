@@ -1,3 +1,9 @@
+.body-index {
+    background-image: url("../img/background-index.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 .btn-circle {
     width: 70px;
     height: 70px;
@@ -8,4 +14,8 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
+}
+
+.img {
+    width: 300px;
 }
