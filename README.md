@@ -142,7 +142,7 @@ La aplicación deberá ser responsiva.
 
 ## Comenzando 🚀
 
-Dónde encontrar el Proyecyo en Producción:
+Dónde encontrar el Proyecto en Producción:
 
 https://el-consultorio-del-coder.herokuapp.com/
 
