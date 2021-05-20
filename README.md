@@ -110,7 +110,7 @@ La aplicación deberá ser responsiva.
 
 ## Requiered
 
-- PHP 7.4
+- PHP 7.4 min
 - Composer installed
 
 
