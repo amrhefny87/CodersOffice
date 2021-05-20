@@ -1,0 +1,30 @@
+body {
+    background-color: #1190C7;
+}
+
+.create {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.button-cancel {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
