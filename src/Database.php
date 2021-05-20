@@ -23,15 +23,15 @@ class Database
 
     private function getConnection()
     {
-        //$host = "localhost";
-        //$user = "root";
-        //$pass = "";
-        //$database = "consultant";
+        $host = "localhost";
+        $user = "root";
+        $pass = "";
+        $database = "consultant";
 
-        $host = "eu-cdbr-west-01.cleardb.com";
-        $user = "ba9688ee438197";
-        $pass = "b4c3bd82";
-        $database = "heroku_9cdcf44f6ba5c40";
+        //$host = "eu-cdbr-west-01.cleardb.com";
+        //$user = "ba9688ee438197";
+        //$pass = "b4c3bd82";
+        //$database = "heroku_9cdcf44f6ba5c40";
         $charset = "utf-8";
         $options = [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC];
         $pdo = new pdo("mysql:host={$host};dbname={$database};charset{$charset}", $user, $pass, $options);

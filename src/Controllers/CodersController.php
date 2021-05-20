@@ -72,7 +72,7 @@ class CodersController
 
         $newCoder->save();
 
-     //   $this-> logger->logCreate($newCoder);
+        $this-> logger->logCreate($newCoder);
 
 
         $this->index();
@@ -84,8 +84,8 @@ class CodersController
         $coder = $coderHelper->findById($id);
         $coder->delete();
 
-       
-       // $this-> logger->logDelete($coder);
+
+        $this-> logger->logDelete($coder);
 
         $this->index();
     }
@@ -106,11 +106,10 @@ class CodersController
         $coder = $coderHelper->findById($id);
         $coder->rename($request["coder"],$request["issue"]);
         $coder->update();
+        
+        $this-> logger->logUpdate($coder);
 
-      
-      // $this-> logger->logUpdate($coder);
-
-        // Return to Viwe List
+        // Return to View List
         $this->index();
     }
 }
