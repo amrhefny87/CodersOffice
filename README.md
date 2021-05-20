@@ -129,7 +129,8 @@ La aplicación deberá ser responsiva.
 
 ## Run Tests
 
-- vendor/bin/phpunit
+- vendor/bin/phpunit 
+- (1 test, 2 assertions)
 
 
 ***
