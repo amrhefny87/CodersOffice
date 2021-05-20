@@ -200,7 +200,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   <li>Jose Miguel - Product Owner</li>
 </ul>
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx También pueden mirar la lista de todos los [contribuyentes](https://github.com/DiversosFactoria5/elConsultorioDelCodersMVC/graphs/contributors) quienes han participado en este proyecto.  
-
+También pueden mirar la lista de todos los [contribuyentes](https://github.com/DiversosFactoria5/elConsultorioDelCodersMVC/graphs/contributors) quienes han participado en este proyecto.  
 
 
