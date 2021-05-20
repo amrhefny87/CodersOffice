@@ -26,4 +26,7 @@ require_once("Components/Header.php"); ?>
         </form>
     </main>
 </div>
+    <?php 
+    require_once("Components/Footer.php");
+    ?>
 </body>
