@@ -162,11 +162,9 @@ Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidade
 ## ⚙️ Capturas pantalla formato móvil 
 
 <p align="center"> 
-  <img src="./img/README.md/landingPageReadMe.JPG?raw=true" width=25%>
-  <img src="./img/README.md/Main1ReadMe.JPG?raw=true" width=25%>
-  <img src="./img/README.md/Main2ReadMe.JPG?raw=true" width=25%>
-  <img src="./img/README.md/endingPage1ReadMe.JPG?raw=true" width=25%>
-  <img src="./img/README.md/endingPage2ReadMe.JPG?raw=true" width=25%>
+<img src="./src/ReadMe.md/screenshotMobil/read.PNG?raw=true" width=25%>
+<img src="./src/ReadMe.md/screenshotMobil/creat.PNG?raw=true" width=25%>
+<img src="./src/ReadMe.md/screenshotMobil/edit.PNG?raw=true" width=25%>
 </p>
 
 
