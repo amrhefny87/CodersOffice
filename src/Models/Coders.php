@@ -26,6 +26,7 @@ class Coders
 
         if (!$this->database) {
             $this->database = new Database();
+            
         }
     }
 
