@@ -153,7 +153,9 @@ El hoster Heroku nos genera un error de conexiones simultaneas a nuestra base de
 Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidades:
 
 <p align="center"> 
-  <img src="./img/README.md/mockupReadMe.JPG?raw=true" width=50%>
+  <img src="./src/ReadMe.md/mockup/mockupMobil.PNG?raw=true" width=50%>
+  <img src="./src/ReadMe.md/mockup/mockupTablet.PNG?raw=true" width=50%>
+  <img src="./src/ReadMe.md/mockup/mockupDesktop.PNG?raw=true" width=50%>
 </p>
 
 
@@ -171,11 +173,9 @@ Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidade
 ## Capturas Pantallas formato Desktop ⚙️
 
 <p align="center"> 
-  <img src="./img/README.md/landingPageReadMeIpad.JPG?raw=true" width=40%>
-  <img src="./img/README.md/Main1ReadMeIpad.JPG?raw=true" width=40%>
-  <img src="./img/README.md/Main2ReadMeIpad.JPG?raw=true" width=40%>
-  <img src="./img/README.md/endingPage1ReadMeIpad.JPG?raw=true" width=40%>
-  <img src="./img/README.md/endingPage2ReadMeIpad.JPG?raw=true" width=40%>
+<img src="./src/ReadMe.md/screenshotDesktop/read.PNG?raw=true" width=50%>
+<img src="./src/ReadMe.md/screenshotDesktop/creat.PNG?raw=true" width=50%>
+<img src="./src/ReadMe.md/screenshotDesktop/edit.PNG?raw=true" width=50%>
 </p>
 
 
@@ -190,17 +190,12 @@ Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidade
   <li>GoogleDocs</li>
   <li>GoogleFonts</li>
   <li>Zoom</li>
-  <li>MVC</li>
+  <li>Bootstrap</li>
   <li>PDO</li>
   <li>HEROKU</li>
   <li>SQL</li>
   <li>PHPMyAdmin</li>
 </ul>
-
-
-## Licencias Utilizadas 🛠️
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 ## Autores ✒️
