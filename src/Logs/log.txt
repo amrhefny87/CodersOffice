@@ -20,3 +20,6 @@
 18/05/2021 15:48:05 se ha creado una solicitud con Nombre del Coder: Chuiquitin el peque con Issue: comida entre amigos
 18/05/2021 15:48:16 se ha actualizado ID: 51 con Nombre del Coder: Chuiquitin el peque con Issue: La Loca de su madre
 18/05/2021 15:48:24 se ha eliminado ID: 51 con Nombre del Coder:  Chuiquitin el peque con Issue: La Loca de su madre
+19/05/2021 14:25:30 se ha actualizado ID: 5 con Nombre del Coder: Wiiii con Issue: Presenta
+19/05/2021 14:25:35 se ha eliminado ID: 5 con Nombre del Coder: Wiiii con Issue: Presenta
+19/05/2021 14:25:43 se ha creado una solicitud con Nombre del Coder: hola con Issue: mundo
