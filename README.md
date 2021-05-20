@@ -10,8 +10,7 @@ El Consultorio Del Coder
 
 Nos encontramos en una empresa de desarrollo y necesitamos una aplicación que permita pedir cita al CTO para resolver problemas técnicos de los equipos de desarrollo.
 
-De momento vamos a desarrollar un producto mínimo viable (MVP). Empezaremos con un código spaguetti, en PHP e intentaremos llegar a una aplicación orientada a objetos usando el 
-patrón MVC (Modelo, Vista, Controlador).
+De momento vamos a desarrollar un producto mínimo viable (MVP), en PHP e intentaremos llegar a una aplicación orientada a objetos usando el patrón MVC (Modelo, Vista, Controlador).
 
 
 ## Requisitos Funcionales
@@ -111,8 +110,17 @@ La aplicación deberá ser responsiva.
 
 ## Requiered
 
-- PHP 7.4
+- PHP 7.4 min
 - Composer installed
+
+
+## Install Project
+
+1. Clone git https://github.com/DiversosFactoria5/elConsultorioDelCodersMVC.git
+2. Crear una base de datos en phpMyAdmin en Local, con los credenciales - user : root, password : ""
+3. Nombre de base de datos : consultant
+4. Importar la tabla siguiente : https://github.com/DiversosFactoria5/elConsultorioDelCodersMVC/blob/main/src/ReadMe.MD/Database/consultant.sql
+
 
 ## Install
 
@@ -120,7 +128,9 @@ La aplicación deberá ser responsiva.
 
 ## Run Tests
 
-- vendor/bin/phpunit
+- vendor/bin/phpunit 
+- (1 test, 2 assertions)
+
 
 ***
 ***
@@ -131,9 +141,11 @@ La aplicación deberá ser responsiva.
 
 ## Comenzando 🚀
 
-Dónde encontrar el git Page: 
+Dónde encontrar el Proyecto en Producción:
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx  https://andresestebanpatino.github.io/wheelOfDoom/
+https://el-consultorio-del-coder.herokuapp.com/
+
+El hoster Heroku nos genera un error de conexiones simultaneas a nuestra base de datos SQL, que no hemos podido solucioanr en Heroku.
 
 
 ## Mockup de este proyecto 🛠️
@@ -193,14 +205,14 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## Autores ✒️
 <ul>
-  <li>Andrea</li>
-  <li>Jael</li>
-  <li>Andres - Scrum Master</li>
   <li>Amr</li>
+  <li>Andrea</li>
+  <li>Andres - Scrum Master</li>
+  <li>Jael</li>
   <li>Jose Miguel - Product Owner</li>
+  <li>Sergi</li>
 </ul>
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx También pueden mirar la lista de todos los [contribuyentes](https://github.com/DiversosFactoria5/elConsultorioDelCodersMVC/graphs/contributors) quienes han participado en este proyecto.  
-
+También pueden mirar la lista de todos los [contribuyentes](https://github.com/DiversosFactoria5/elConsultorioDelCodersMVC/graphs/contributors) quienes han participado en este proyecto.  
 
 
