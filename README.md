@@ -200,6 +200,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   <li>Andres - Scrum Master</li>
   <li>Jael</li>
   <li>Jose Miguel - Product Owner</li>
+  <li>Sergi</li>
 </ul>
 
 También pueden mirar la lista de todos los [contribuyentes](https://github.com/DiversosFactoria5/elConsultorioDelCodersMVC/graphs/contributors) quienes han participado en este proyecto.  
