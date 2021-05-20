@@ -1,7 +1,7 @@
 <?php require_once("Components/Layout.php");
 
 
-// require_once("Components/Header.php"); ?>
+require_once("Components/Header.php"); ?>
 
     <body>
     <div class="create">
