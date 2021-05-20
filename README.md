@@ -114,6 +114,15 @@ La aplicación deberá ser responsiva.
 - PHP 7.4
 - Composer installed
 
+
+## Install Project
+
+1. Clone git https://github.com/DiversosFactoria5/elConsultorioDelCodersMVC.git
+2. Crear una base de datos en phpMyAdmin en Local, con los credenciales - user : root, password : ""
+3. Nombre de base de datos : consultant
+4. Importar la tabla siguiente : https://github.com/DiversosFactoria5/elConsultorioDelCodersMVC/blob/main/src/ReadMe.MD/Database/consultant.sql
+
+
 ## Install
 
 - composer install and/or composer update
@@ -121,6 +130,7 @@ La aplicación deberá ser responsiva.
 ## Run Tests
 
 - vendor/bin/phpunit
+
 
 ***
 ***
