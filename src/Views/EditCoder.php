@@ -14,7 +14,7 @@
             </div>
             <div class="input-group" style="width: 36rem; margin-left: 2rem;">
                 <span class="input-group-text">Issue description</span>
-                <textarea class="form-control" area-label="With textarea" type="text" name="issue" required value='<?php echo $data["coder"]->getIssue() ?>'></textarea>
+                <input class="form-control" area-label="With textarea" type="text" name="issue" required value='<?php echo $data["coder"]->getIssue() ?>'>
             </div>
             <div class="botones">
                 <input class="btn-lg btn-outline-warning go-add-task float"type="submit" value="Edit">
