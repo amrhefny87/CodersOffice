@@ -131,9 +131,11 @@ La aplicación deberá ser responsiva.
 
 ## Comenzando 🚀
 
-Dónde encontrar el git Page: 
+Dónde encontrar el Proyecyo en Producción:
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx  https://andresestebanpatino.github.io/wheelOfDoom/
+https://el-consultorio-del-coder.herokuapp.com/
+
+El hoster Heroku nos genera un error de conexiones simultaneas que no hemos podido solucioanr en Heroku.
 
 
 ## Mockup de este proyecto 🛠️
