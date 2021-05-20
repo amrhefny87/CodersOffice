@@ -1,3 +1,8 @@
+El Consultorio Del Coder
+========================
+
+***
+
 ## Contexto del proyecto
 
 
@@ -9,112 +14,96 @@ De momento vamos a desarrollar un producto mínimo viable (MVP). Empezaremos con
 patrón MVC (Modelo, Vista, Controlador).
 
 
-## Requisitos Funcionales:
+## Requisitos Funcionales
+
 
 La aplicación constará de al menos 3 páginas
+<ul>
+<li>Una página para la lista con todas las citas previstas.</li>
+<li>Una página con un formulario para crear una nueva cita.</li>
+<li>Una página para editar una cita concreta.</li>
+</ul>
 
-* Una página para la lista con todas las citas previstas.
 
-* Una página con un formulario para crear una nueva cita.
+## Páginas:
 
-* Una página para editar una cita concreta.
+### Lista: Las citas beben aparecer por orden de creación con:
+<ul>
+<li>El nombre del coder o del equipo.</li>
+<li>El tema de consulta</li>
+<li>Fecha y hora de la creación de la cita</li>
+<li>Las citas se podrán eliminar.</li>
+<li>Podremos acceder a la edición de cada cita, y a la página de creación de una cita nueva.</li>
+</ul>
 
-Páginas:
+### Crear nueva cita:
+<ul>
+<li>Formulario con los campos necesarios obligatorios</li>
+<li>Botón para borrar los campos</li>
+<li>Botón para cancelar y volver a la lista principal</li>
+<li>Botón para enviar la información</li>
+</ul>
 
-* Lista: Las citas beben aparecer por orden de creación con:
 
-* -> El nombre del coder o del equipo.
+### Editar cita:
+<ul>
+<li>Formulario con los campos necesarios obligatorios.</li>
+<li>Los campos deben tener la información de la cita a editar</li>
+<li>Boton cancelar, Botón de enviar</li>
+</ul>
 
-* -> El tema de consulta
-
-* -> Fecha y hora de la creación de la cita
-
-* -> Las citas se podrán eliminar.
-
-* -> Podremos acceder a la edición de cada cita, y a la página de creación de una cita nueva.
-
-* Crear nueva cita:
-
-* ->Formulario con los campos necesarios obligatorios
-
-* ->Botón para borrar los campos
-
-* ->Botón para cancelar y volver a la lista principal
-
-* ->Botón para enviar la información
-
-* Editar cita:
-
-* ->Formulario con los campos necesarios obligatorios.
-
-* ->Los campos deben tener la información de la cita a editar
-
-* ->Boton cancelar, Botón de enviar
 
 La aplicación deberá ser responsiva.
 
 
 ## Requisitos Técnicos:
+<ul>
+<li>Aplicación de tipo CRUD (Create, Read, Update, Delete)</li>
+<li>Deberá ser Orientada a objetos con el patrón MVC</li>
+<li>Deberá estar en un servidor gratuito en producción.</li>
+<li>Se debe usar Git con buenas prácticas en los commits.</li>
+<li>El repositorio debe contener un Readme con explicación del proyecto, y una explicación de cómo instalar o ejecutar la aplicación.</li>
+</ul>
 
-* Aplicación de tipo CRUD (Create, Read, Update, Delete)
 
-* Deberá ser Orientada a objetos con el patrón MVC
-
-* Deberá estar en un servidor gratuito en producción.
-
-* Se debe usar Git con buenas prácticas en los commits.
-
-* El repositorio debe contener un Readme con explicación del proyecto, y una explicación de cómo instalar o ejecutar la aplicación.
-
-Extras:
-
-* Añadir tests unitarios con PhpUnit.
-
-* Añadir Tests End2End con Selenium.
+## Extras:
+<ul>
+<li>Añadir tests unitarios con PhpUnit.</li>
+<li>Añadir Tests End2End con Selenium.</li>
+</ul>
 
 
 ## Tecnologías:
-
-* Frontend: HTML, CSS, SCSS - Opcional: Framework de CSS.
-
-* Backend: PHP.
-
-* Bases de datos: MySQL.
-
-* No se pueden usar otras librerias o frameworks que los espicificados.
+<ul>
+<li>Frontend: HTML, CSS, SCSS - Opcional: Framework de CSS.</li>
+<li>Backend: PHP.</li>
+<li>Bases de datos: MySQL.</li>
+<li>No se pueden usar otras librerias o frameworks que los espicificados.</li>
+</ul>
 
 
 ## Entrega:
-
-* Un link a un repositorio de github
-
-* Link a url del proyecto en producción
-
-* Presentación en diapositivas + Link
-
-* Demo y code review
-
+<ul>
+<li> Un link a un repositorio de github</li>
+<li>Link a url del proyecto en producción</li>
+<li>Presentación en diapositivas + Link</li>
+<li>Demo y code review</li>
+</ul>
 
 
 ## Core Skills:
+<ul>
+  <li>Semántica HTML</li>
+  <li>Buenas Practicas en CSS, SCSS</li>
+  <li>Capacidad de Abstración en clases y objetos.</li>
+  <li>Buenas prácticas OOP - Encapsulación, Herencia.</li>
+  <li>Patrones de diseño - Modelo Vista Controlador (MVC).</li>
+  <li>Implementar la aplicación en un servidor en producción.</li>
+  <li>Uso de Git.</li>
+  <li>Desarrollo basado en historias de usuario y tareas (Kanban).</li>
+  <li>Comunicación y autoevaluación.</li>
+</ul>
 
-* Semántica HTML
-
-* Buenas Practicas en CSS, SCSS
-
-* Capacidad de Abstración en clases y objetos.
-
-* Buenas prácticas OOP - Encapsulación, Herencia.
-
-* Patrones de diseño - Modelo Vista Controlador (MVC).
-
-* Implementar la aplicación en un servidor en producción.
-
-* Uso de Git.
-
-* Desarrollo basado en historias de usuario y tareas (Kanban).
-
-* Comunicación y autoevaluación.
 
 ***
 ***
@@ -179,20 +168,22 @@ Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidade
 
 
 ## Herramientas usadas en este proyecto 🛠️
-
-* Visual Studio Code
-* Trello
-* Figma
-* Slack
-* Metodologías Ágiles
-* Balsamiq
-* Planning Poker
-* GoogleDocs
-* GoogleFonts
-* Zoom
-* MVC
-* PDO
-
+<ul>
+  <li>Visual Studio Code</li>
+  <li>Trello</li>
+  <li>Figma</li>
+  <li>Metodologías Ágiles</li>
+  <li>Balsamiq</li>
+  <li>Planning Poker</li>
+  <li>GoogleDocs</li>
+  <li>GoogleFonts</li>
+  <li>Zoom</li>
+  <li>MVC</li>
+  <li>PDO</li>
+  <li>HEROKU</li>
+  <li>SQL</li>
+  <li>PHPMyAdmin</li>
+</ul>
 
 
 ## Licencias Utilizadas 🛠️
@@ -201,12 +192,13 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 ## Autores ✒️
-
-* **Andrea**
-* **Jael** 
-* **Andres - Scrum Master**
-* **Amr**
-* **Jose Miguel - Product Owner**
+<ul>
+  <li>Andrea</li>
+  <li>Jael</li>
+  <li>Andres - Scrum Master</li>
+  <li>Amr</li>
+  <li>Jose Miguel - Product Owner</li>
+</ul>
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx También pueden mirar la lista de todos los [contribuyentes](https://github.com/AndresEstebanPatino/wheelOfDoom/contributors) quienes han participado en este proyecto.  
 
