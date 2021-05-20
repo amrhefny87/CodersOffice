@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/styles/create.css">
     <link rel="stylesheet" href="public/styles/styles.css">
-    <link rel="stylesheet" href="../../../css/style-card-add-task.css">
-    <link rel="stylesheet" href="../../../css/sb-admin-2.css">
-    <link rel="stylesheet" href="../../../css/sb-admin-2.min.css">
-
     <title>Student Manager</title>
 </head>
