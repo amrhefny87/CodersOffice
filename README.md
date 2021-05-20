@@ -135,7 +135,7 @@ Dónde encontrar el Proyecyo en Producción:
 
 https://el-consultorio-del-coder.herokuapp.com/
 
-El hoster Heroku nos genera un error de conexiones simultaneas que no hemos podido solucioanr en Heroku.
+El hoster Heroku nos genera un error de conexiones simultaneas a nuestra base de datos SQL, que no hemos podido solucioanr en Heroku.
 
 
 ## Mockup de este proyecto 🛠️
