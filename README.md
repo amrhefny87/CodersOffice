@@ -119,7 +119,7 @@ La aplicación deberá ser responsiva.
 1. Clone git https://github.com/DiversosFactoria5/elConsultorioDelCodersMVC.git
 2. Crear una base de datos en phpMyAdmin en Local, con los credenciales - user : root, password : ""
 3. Nombre de base de datos : consultant
-4. Importar la tabla siguiente : https://github.com/DiversosFactoria5/elConsultorioDelCodersMVC/blob/main/src/ReadMe.MD/Database/consultant.sql
+4. Importar la tabla siguiente : https://github.com/DiversosFactoria5/elConsultorioDelCodersMVC/blob/main/src/ReadMe.md/Database/consultant.sql
 
 
 ## Install
