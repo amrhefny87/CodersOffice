@@ -185,13 +185,9 @@ Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidade
   <li>Figma - Metodologías Ágiles</li>
   <li>Balsamiq - Planning Poker</li>
   <li>GoogleDocs - GoogleFonts</li>
-  
   <li>Zoom - Bootstrap</li>
-  
   <li>PDO - HEROKU</li>
-  
   <li>SQL - PHPMyAdmin</li>
-  
 </ul>
 
 
