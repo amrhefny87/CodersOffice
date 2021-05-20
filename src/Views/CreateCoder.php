@@ -1,8 +1,7 @@
 <?php require_once("Components/Layout.php"); ?>
+<?php require_once("Components/Header.php"); ?>
 
-<body>
-    <?php require_once("Components/Header.php"); ?>
-
+    <body class="create">
     <main class="container text-center">
 
         <h2 class="text-center">Nueva Consulta</h2>
