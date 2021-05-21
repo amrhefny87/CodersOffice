@@ -108,7 +108,7 @@ La aplicación deberá ser responsiva.
 ***
 
 
-## Requiered
+## Required
 
 - PHP 7.4 min
 - Composer installed
